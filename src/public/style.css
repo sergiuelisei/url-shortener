@@ -1,0 +1,124 @@
+/* ==========================================================================
+   #URL SHORTENER STYLES
+   ========================================================================== */
+
+/**
+ *
+ * Inheriting box sizing slightly better best-practice
+ * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ *
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Properties
+   ========================================================================== */
+
+:root {
+  --blue: #46acca;
+  --brown: #d49667;
+  --red: #980100;
+}
+
+/* Body
+   ========================================================================== */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  height: 100vh;
+  background: #3d259b;
+
+  background: linear-gradient(to left, #3d259b, #2d69c9);
+}
+
+/* Top Section
+   ========================================================================== */
+
+.form-section,
+.result-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  padding-top: 6rem;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.submit-button {
+  display: block;
+}
+
+.url-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.url-input {
+  width: 100%;
+  border: 1px solid var(--blue);
+  padding: 10px 15px;
+  font-size: 20px;
+  height: 45px;
+  margin-bottom: 40px;
+}
+
+.submit-button {
+  width: 180px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #bd5151;
+  background-color: #bd5151;
+  color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #bd5151;
+}
+.result {
+  margin-top: 50px;
+  max-width: 500px;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #bd5151;
+  border: 5px solid #bd5151;
+  border-radius: 10px;
+  text-align: center;
+}
+.short-url {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.short-url:hover {
+  border-bottom: 2px solid white;
+}
