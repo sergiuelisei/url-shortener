@@ -42,17 +42,24 @@ body {
 }
 
 .form-section {
-  padding-top: 6rem;
+  padding-top: 1rem;
+}
+
+h1 {
+  background-image: url(https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .page-title {
-  margin-bottom: 10px;
-  font-size: 95px;
+  font-size: 10rem;
   text-align: center;
 }
 .p-text {
   margin-bottom: 30px;
-  font-size: 65px;
+  font-size: 2.8rem;
   text-align: center;
 }
 
@@ -80,7 +87,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   border: 1px solid #bd5151;
-  background-color: #bd5151;
+  background-image: url(https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
   color: white;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
   border-radius: 15px;
@@ -99,8 +106,7 @@ body {
   max-width: 500px;
   width: 100%;
   padding: 1rem 0;
-  background-color: #bd5151;
-  border: 5px solid #bd5151;
+  background-image: url(https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
   border-radius: 10px;
   text-align: center;
 }
