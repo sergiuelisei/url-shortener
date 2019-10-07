@@ -1,4 +1,4 @@
-##URL shortener
+## URL shortener
 [DEMO](https://www.iute.me)
 
 ## Getting Started
